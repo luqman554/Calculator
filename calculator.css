@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubbler+One&family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+}
+
+.name{
+
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+}
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+    background-color: #000000;
+    width: 300px;
+    height: 450px;
+    margin: 30px;
+    border-radius: 15px;
+    box-shadow: 2px -2px 5px rgb(0, 0, 0);
+
+}
+
+button{
+    
+    margin: 10px;
+    padding-top: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff2c;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 220px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #ffffff5a;
+}
+
+.operators{
+    color: orangered;
+}
+
+input{
+
+    width: 280px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: rgb(50, 44, 44);
+    color: white;
+}
+
+input:focus{
+    outline: none;
+    border: none;
+}
